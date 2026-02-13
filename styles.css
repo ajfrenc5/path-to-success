@@ -30,8 +30,117 @@ body {
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.5
 }
+
+h1, h2 {
+    font-family: 'Kavoon', cursive;
+}
+
+h1 { font-size: 3em; margin-bottom: 0.5em; padding-top: 20px; }
+nav h2 { font-size: 1.5em; color: var(--dark-gray); }
+h2 { font-size: 2em; margin: 20px 0; }
+h3 { font-size: 1.5em; margin: 15px 0; color: var(--yellow); }
+h4 { font-size: 1.15em; color: var(--purple); margin-bottom: 10px; }
+
+/* NAV STYLES */
+nav {
+    background-color: var(--yellow);
+    padding: 20px;
+    margin: 20px;
+}
+
+nav ul { list-style: none; }
+
+nav li {
+    background-color: var(--white);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: bold;
+}
+/* ARTICLES */
+article {
+    background-color: var(--white);
+    color: var(--dark-gray);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* WHY CHOOSE US - GRID MOCKUP */
+#why-choose-us {
+    background-color: var(--pink);
+    padding: 20px;
+}
+
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none
+}
+
+#why-choose-us li {
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#why-choose-us li:nth-child(1) { background-color: var(--teal); }
+#why-choose-us li:nth-child(2) { background-color: var(--lavender); }
+#why-choose-us li:nth-child(3) { background-color: var(--yellow); color: var(--dark-gray); }
+#why-choose-us li:nth-child(4) { background-color: var(--white); color: var(--dark-gray); }
+
+/* TABLES */
+table {
+    width: 80%;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+    background-color: var(--white);
+    color: var(--dark-gray)
+}
+
+th { background-color: var(--yellow); padding: 10px; }
+td { padding: 10px; border: 1px solid var(--dark-gray); }
+
+/* CTA SECTION */
+#cta {
+    background-color: var(--pink);
+    padding: 40px 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--pink);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+footer a { color: var(--white); }
 
 
 
